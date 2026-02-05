@@ -48,7 +48,7 @@ const resources = {
         storyTitle: 'Our Story',
         quote: "Sweetness is not just a taste, it's an experience we create with passion.",
         description: 'Welcome to our world of sweetness. Ferrero Cake and Cheese & Walnut Kullaj 1951 represent the pinnacle of artisanal baking.',
-        brandText: 'Ferrero Cake focuses on rich indulgent desserts, while Colage represents artistic molded cake creations.',
+        brandText: 'Ferrero Cake focuses on rich indulgent desserts, while Kullaj represents artistic molded cake creations.',
         features: {
           artisan: {
             title: 'Artisan Baking',
