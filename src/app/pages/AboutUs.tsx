@@ -52,8 +52,8 @@ export const AboutUs = () => {
             </p>
           </div>
           <div className="grid grid-cols-2 gap-4">
-            <ImageWithFallback src="https://images.unsplash.com/photo-1551024601-bec78aea704b?q=80&w=600" className="rounded-2xl shadow-lg" />
-            <ImageWithFallback src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=600" className="rounded-2xl shadow-lg mt-8" />
+            <ImageWithFallback src="https://scontent.famm10-1.fna.fbcdn.net/v/t39.30808-6/591939534_122192677280552292_2783571141389881115_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_ohc=MrsxOUharLkQ7kNvwH6fkd5&_nc_oc=AdlSlqyW5jvxB5JPBwVtd-1r1ER4sqlit1IESTM9mpr1yOjAlkrJDr8fVDzr_b8iw201z_CcaXR27kgDouROAwBB&_nc_zt=23&_nc_ht=scontent.famm10-1.fna&_nc_gid=JytMZMD9VCONqmalJhkgJg&oh=00_AfuPGiy_zdfE2bngRrGFTxu3M3E8PtTS4bPUJJg7BBzgSQ&oe=698ACAFE" />
+            <ImageWithFallback src="https://scontent.famm13-1.fna.fbcdn.net/v/t39.30808-6/497458483_1108961704601553_3015175324517725045_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=kxixHqUJiDcQ7kNvwGoyn4m&_nc_oc=AdmVcP1kTiHcEKeQtnmXu-9NB9zhbmCgvC-45TDwFMotLz1_AACr_Qi2Ii_Pc2j40i0XnLjnD7dSVwzJtn98UeU6&_nc_zt=23&_nc_ht=scontent.famm13-1.fna&_nc_gid=WvnLcZhSa6lYeVsPgTQKJQ&oh=00_AfvRc6eCnHGNi-iMhFZQ1B4e3tEmoYE4zc-zlLUfUXBNdw&oe=698AC014" />
           </div>
         </div>
       </section>
