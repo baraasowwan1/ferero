@@ -112,7 +112,7 @@ export const ContactUs = () => {
                     {t('contact.email')}
                   </p>
                   <p className="text-accent font-medium">
-                    hello@ferrerokullaj.com
+                    info@ferero.online
                   </p>
                 </div>
               </div>
@@ -123,11 +123,11 @@ export const ContactUs = () => {
           <div className="flex gap-4">
             <a className="flex items-center gap-2 px-6 py-3 bg-accent text-white rounded-full">
               <Facebook className="w-5 h-5" />
-              <span>فيسبوك</span>
+              <span>Facebook</span>
             </a>
             <a className="flex items-center gap-2 px-6 py-3 bg-accent text-white rounded-full">
               <Instagram className="w-5 h-5" />
-              <span>إنستغرام</span>
+              <span>Instagram</span>
             </a>
           </div>
 
