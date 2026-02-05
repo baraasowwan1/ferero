@@ -8,10 +8,10 @@ export const Footer = () => {
 
   // Using cleaner, more "actual logo" representational images for payment methods
   const paymentMethods = [
-    { name: t('payment.visa'), img: 'https://p7.hiclipart.com/preview/73/209/101/credit-card-gift-card-visa-stored-value-card-payment-visa-thumbnail.jpg' }, // More realistic card/logo feel
-    { name: t('payment.mastercard'), img: 'https://images.unsplash.com/photo-1613243555988-441166d4d6fd?q=80&w=200' },
-    { name: t('payment.click'), img: 'https://images.unsplash.com/photo-1757301714935-c8127a21abc6?q=80&w=200' },
-    { name: t('payment.cod'), img: 'https://images.unsplash.com/photo-1660811638653-8df94c6ccd87?q=80&w=200' },
+    { name: t('payment.visa'), img: 'https://purepng.com/public/uploads/large/purepng.com-visa-logologobrand-logoiconslogos-251519938794uqvcz.png' }, // More realistic card/logo feel
+    { name: t('payment.mastercard'), img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/MasterCard_Logo.svg/1280px-MasterCard_Logo.svg.png' },
+    { name: t('payment.click'), img: 'https://www.jopacc.com/sites/default/files/2023-11/final_cliq_logo-02_1_0.png' },
+    { name: t('payment.cod'), img: 'https://png.pngtree.com/png-clipart/20210606/original/pngtree-cash-on-delivery-logo-design-with-illustation-png-image_6376011.jpg' },
   ];
 
   return (
