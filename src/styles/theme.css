@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #8d6e63;
+  --color-secondary: #f06292;
+  --color-accent: #3e2723;
+  --color-pink-light: #fce4ec;
+  --color-brown-light: #d7ccc8;
+  
+  --font-serif: "Playfair Display", serif;
+  --font-sans: "Inter", system-ui, sans-serif;
+}
+
+/* Custom properties for the app */
+:root {
+  --app-primary: var(--color-primary);
+  --app-secondary: var(--color-secondary);
+  --app-accent: var(--color-accent);
+  --app-bg: #ffffff;
+}
+
+@layer base {
+  body {
+    @apply font-sans bg-white text-stone-900;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif;
+  }
+}
