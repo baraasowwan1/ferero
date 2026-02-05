@@ -8,7 +8,7 @@ export const Footer = () => {
 
   // Using cleaner, more "actual logo" representational images for payment methods
   const paymentMethods = [
-    { name: t('payment.visa'), img: 'https://images.unsplash.com/photo-1620714223084-8fcacc6dfd8d?q=80&w=200' }, // More realistic card/logo feel
+    { name: t('payment.visa'), img: 'https://p7.hiclipart.com/preview/73/209/101/credit-card-gift-card-visa-stored-value-card-payment-visa-thumbnail.jpg' }, // More realistic card/logo feel
     { name: t('payment.mastercard'), img: 'https://images.unsplash.com/photo-1613243555988-441166d4d6fd?q=80&w=200' },
     { name: t('payment.click'), img: 'https://images.unsplash.com/photo-1757301714935-c8127a21abc6?q=80&w=200' },
     { name: t('payment.cod'), img: 'https://images.unsplash.com/photo-1660811638653-8df94c6ccd87?q=80&w=200' },
