@@ -17,13 +17,13 @@ export const Store = () => {
 
   const products = [
     { id: 1, name: 'Ferrero Signature Cake', category: 'cakes', brand: 'Ferrero Cake', image: 'https://images.unsplash.com/photo-1599939569628-4b16b47c3e8d?q=80&w=600' },
-    { id: 2, name: 'Golden Molded Praline', category: 'molded', brand: 'Colage', image: 'https://images.unsplash.com/photo-1768572781055-e5cc64015255?q=80&w=600' },
+    { id: 2, name: 'Golden Molded Praline', category: 'molded', brand: 'Kullaj', image: 'https://images.unsplash.com/photo-1768572781055-e5cc64015255?q=80&w=600' },
     { id: 3, name: 'Double Chocolate Fudge', category: 'cakes', brand: 'Ferrero Cake', image: 'https://images.unsplash.com/photo-1764380746818-18c01e96df12?q=80&w=600' },
-    { id: 4, name: 'Pistachio Delight', category: 'pastries', brand: 'Colage', image: 'https://images.unsplash.com/photo-1759593914762-11026921ef2d?q=80&w=600' },
+    { id: 4, name: 'Pistachio Delight', category: 'pastries', brand: 'Kullaj', image: 'https://images.unsplash.com/photo-1759593914762-11026921ef2d?q=80&w=600' },
     { id: 5, name: 'Red Velvet Royale', category: 'cakes', brand: 'Ferrero Cake', image: 'https://images.unsplash.com/photo-1586788680434-30d324634bf6?q=80&w=600' },
-    { id: 6, name: 'Heart Shaped Truffle', category: 'molded', brand: 'Colage', image: 'https://images.unsplash.com/photo-1548946522-4a313e8972a4?q=80&w=600' },
+    { id: 6, name: 'Heart Shaped Truffle', category: 'molded', brand: 'Kullaj', image: 'https://images.unsplash.com/photo-1548946522-4a313e8972a4?q=80&w=600' },
     { id: 7, name: 'Almond Macaron Tower', category: 'pastries', brand: 'Ferrero Cake', image: 'https://images.unsplash.com/photo-1559620192-032c4bc4674e?q=80&w=600' },
-    { id: 8, name: 'Vanilla Bean Mousse', category: 'molded', brand: 'Colage', image: 'https://images.unsplash.com/photo-1511081692775-05d0f180a065?q=80&w=600' },
+    { id: 8, name: 'Vanilla Bean Mousse', category: 'molded', brand: 'Kullaj', image: 'https://images.unsplash.com/photo-1511081692775-05d0f180a065?q=80&w=600' },
   ];
 
   const filteredProducts = activeCategory === 'all' 
