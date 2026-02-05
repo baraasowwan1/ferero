@@ -11,7 +11,7 @@ export const Store = () => {
     { id: 'all', name: t('store.categories.all') },
     { id: 'cakes', name: t('store.categories.cakes') },
     { id: 'molded', name: t('store.categories.molded') },
-    { id: 'pastries', name: t('store.categories.other') }, // ✅ كانت معجنات
+    { id: 'pastries', name: t('store.categories.pastries') }, // "أخرى" / "Others"
   ];
 
   const products = [
@@ -33,7 +33,8 @@ export const Store = () => {
   return (
     <div className="min-h-screen bg-stone-50 py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
+
+        {/* Header */}
         <header className="mb-12 text-center">
           <h1 className="text-4xl font-serif font-bold text-stone-900 mb-4">
             {t('store.title')}
@@ -43,7 +44,7 @@ export const Store = () => {
           </p>
         </header>
 
-        {/* Categories */}
+        {/* Category Filter */}
         <div className="flex flex-wrap justify-center gap-4 mb-12">
           {categories.map(cat => (
             <button
@@ -60,7 +61,7 @@ export const Store = () => {
           ))}
         </div>
 
-        {/* Products */}
+        {/* Product Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           <AnimatePresence mode="popLayout">
             {filteredProducts.map(product => (
