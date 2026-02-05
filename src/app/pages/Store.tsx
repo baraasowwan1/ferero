@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { motion, AnimatePresence } from 'motion/react';
 import { ImageWithFallback } from '../components/figma/ImageWithFallback';
+import { ArrowRight } from 'lucide-react';
 
 export const Store = () => {
   const { t } = useTranslation();
@@ -11,7 +12,7 @@ export const Store = () => {
     { id: 'all', name: t('store.categories.all') },
     { id: 'cakes', name: t('store.categories.cakes') },
     { id: 'molded', name: t('store.categories.molded') },
-    { id: 'pastries', name: t('store.categories.pastries') }, // "أخرى" / "Others"
+    { id: 'pastries', name: t('store.categories.pastries') },
   ];
 
   const products = [
@@ -25,28 +26,21 @@ export const Store = () => {
     { id: 8, name: 'Vanilla Bean Mousse', category: 'molded', brand: 'Colage', image: 'https://images.unsplash.com/photo-1511081692775-05d0f180a065?q=80&w=600' },
   ];
 
-  const filteredProducts =
-    activeCategory === 'all'
-      ? products
-      : products.filter(p => p.category === activeCategory);
+  const filteredProducts = activeCategory === 'all' 
+    ? products 
+    : products.filter(p => p.category === activeCategory);
 
   return (
     <div className="min-h-screen bg-stone-50 py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-
-        {/* Header */}
         <header className="mb-12 text-center">
-          <h1 className="text-4xl font-serif font-bold text-stone-900 mb-4">
-            {t('store.title')}
-          </h1>
-          <p className="text-stone-500 max-w-2xl mx-auto">
-            {t('store.description')}
-          </p>
+          <h1 className="text-4xl font-serif font-bold text-stone-900 mb-4">{t('store.title')}</h1>
+          <p className="text-stone-500 max-w-2xl mx-auto">{t('store.description')}</p>
         </header>
 
         {/* Category Filter */}
         <div className="flex flex-wrap justify-center gap-4 mb-12">
-          {categories.map(cat => (
+          {categories.map((cat) => (
             <button
               key={cat.id}
               onClick={() => setActiveCategory(cat.id)}
@@ -64,7 +58,7 @@ export const Store = () => {
         {/* Product Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           <AnimatePresence mode="popLayout">
-            {filteredProducts.map(product => (
+            {filteredProducts.map((product) => (
               <motion.div
                 key={product.id}
                 layout
@@ -72,35 +66,31 @@ export const Store = () => {
                 animate={{ opacity: 1, scale: 1 }}
                 exit={{ opacity: 0, scale: 0.9 }}
                 transition={{ duration: 0.3 }}
-                className="group bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl"
+                className="group bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-shadow"
               >
                 <div className="aspect-square relative overflow-hidden">
                   <ImageWithFallback
                     src={product.image}
                     alt={product.name}
-                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                   />
-                  <div className="absolute top-4 right-4 bg-white/90 px-3 py-1 rounded-full text-[10px] font-bold text-amber-800">
+                  <div className="absolute top-4 right-4 bg-white/90 backdrop-blur-sm px-3 py-1 rounded-full text-[10px] font-bold tracking-widest uppercase text-amber-800">
                     {product.brand}
                   </div>
                 </div>
-
                 <div className="p-6">
                   <div className="text-[10px] uppercase tracking-widest text-amber-600 font-bold mb-2">
                     {categories.find(c => c.id === product.category)?.name}
                   </div>
-                  <h3 className="text-lg font-serif font-bold text-stone-900 mb-2">
+                  <h3 className="text-lg font-serif font-bold text-stone-900 mb-2 group-hover:text-amber-700 transition-colors">
                     {product.name}
                   </h3>
-                  <p className="text-stone-400 text-xs italic">
-                    {t('store.noPrice')}
-                  </p>
+                  <p className="text-stone-400 text-xs italic">{t('store.noPrice')}</p>
                 </div>
               </motion.div>
             ))}
           </AnimatePresence>
         </div>
-
       </div>
     </div>
   );
