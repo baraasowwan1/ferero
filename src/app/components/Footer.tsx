@@ -92,7 +92,7 @@ export const Footer = () => {
         </div>
 
         <div className="pt-8 border-t border-stone-800 text-center text-stone-500 text-sm">
-          <p>© {new Date().getFullYear()} Ferrero Cake & Cheese and Walnut Kullaj 1951. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Ferrero Cake & Kullaj 1951. All rights reserved.</p>
         </div>
       </div>
     </footer>
