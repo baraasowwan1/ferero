@@ -19,11 +19,12 @@ const resources = {
       },
       store: {
         title: 'Our Sweet Collection',
+        description: 'Browse our exquisite collection of handcrafted sweets and cakes.', // ✅ وصف المتجر
         categories: {
           all: 'All',
           cakes: 'Cakes',
           molded: 'Kullaj',
-          pastries: 'Pastries',
+          pastries: 'Others', // ✅ بدل "Pastries"
         },
         noPrice: 'Price on request',
       },
@@ -97,11 +98,12 @@ const resources = {
       },
       store: {
         title: 'مجموعتنا الحلوة',
+        description: 'تصفح مجموعتنا المميزة من الحلويات والكيك المصنوعة بحرفية عالية.', // ✅ وصف المتجر
         categories: {
           all: 'الكل',
           cakes: 'كيك',
           molded: 'كلاج',
-          pastries: 'معجنات',
+          pastries: 'أخرى', // ✅ بدل "معجنات"
         },
         noPrice: 'السعر عند الطلب',
       },
@@ -163,7 +165,7 @@ i18n
   .use(initReactI18next)
   .init({
     resources,
-    lng: 'ar',
+    lng: 'ar',        // العربية افتراضية
     fallbackLng: 'en',
     interpolation: {
       escapeValue: false,
