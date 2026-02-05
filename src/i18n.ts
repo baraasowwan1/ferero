@@ -29,22 +29,26 @@ const resources = {
       },
       about: {
         title: 'About Ferrero Cake & Kullaj 1951',
-        description: 'Welcome to our world of sweetness. Ferrero Cake and Cheese & Walnut Kullaj 1951 represent the pinnacle of artisanal baking. We combine traditional techniques with modern creativity to bring you the most exquisite cakes and traditional Kullaj. Our passion is to make every celebration memorable with our unique flavors and elegant designs.',
+        description:
+          'Welcome to our world of sweetness. Ferrero Cake and Cheese & Walnut Kullaj 1951 represent the pinnacle of artisanal baking.',
       },
       contact: {
         title: 'Contact Us',
         phone: 'Phone',
+        email: 'Email',
         location: 'Our Locations',
+        direct: 'Direct Contact',
+        viewMap: 'View on Map',
         form: {
           name: 'Name',
           email: 'Email',
           message: 'Message',
-          send: 'Send Message',
+          send: 'Send',
         },
         branches: {
           husun: 'Al-Husun Branch',
           culture: 'North Culture Square, Irbid',
-        }
+        },
       },
       payment: {
         title: 'Payment Methods',
@@ -56,9 +60,10 @@ const resources = {
       delivery: {
         title: 'Delivery Service',
         available: 'Delivery available through our partners.',
-      }
+      },
     },
   },
+
   ar: {
     translation: {
       nav: {
@@ -86,26 +91,30 @@ const resources = {
       },
       about: {
         title: 'حول فيريرو كيك وكلاج جبنة وجوز ١٩٥١',
-        description: 'مرحبًا بكم في عالمنا المليء بالحلويات. يمثل فيريرو كيك وكلاج جبنة وجوز ١٩٥١ قمة صناعة الحلويات الحرفية. نحن نجمع بين التقنيات التقليدية والإبداع الحديث لنقدم لكم أروع أنواع الكيك، والكلاج التقليدي. شغفنا هو جعل كل احتفال لا يُنسى بنكهاتنا الفريدة وتصاميمنا الأنيقة.',
+        description:
+          'مرحبًا بكم في عالمنا المليء بالحلويات. نقدم لكم أروع أنواع الكيك والكلاج بنكهات مميزة وتصاميم أنيقة.',
       },
       contact: {
-        title: 'اتصل بنا',
+        title: 'تواصل معنا',
         phone: 'الهاتف',
+        email: 'البريد الإلكتروني',
         location: 'مواقعنا',
+        direct: 'تواصل مباشر',
+        viewMap: 'عرض على الخريطة',
         form: {
           name: 'الاسم',
           email: 'البريد الإلكتروني',
           message: 'الرسالة',
-          send: 'إرسال الرسالة',
+          send: 'إرسال',
         },
         branches: {
           husun: 'فرع الحصن',
-          culture: 'إربد - ميدان الثقافة الشمالي',
-        }
+          culture: 'إربد – دوار الثقافة',
+        },
       },
       payment: {
         title: 'طرق الدفع',
-        click: 'CliQ',
+        click: 'كليك',
         visa: 'فيزا',
         mastercard: 'ماستر كارد',
         cod: 'الدفع عند الاستلام',
@@ -113,7 +122,7 @@ const resources = {
       delivery: {
         title: 'خدمة التوصيل',
         available: 'خدمة التوصيل متاحة عبر شركائنا.',
-      }
+      },
     },
   },
 };
@@ -122,7 +131,7 @@ i18n
   .use(initReactI18next)
   .init({
     resources,
-    lng: 'en',
+    lng: 'ar',        // ⭐ اجعل العربية افتراضية
     fallbackLng: 'en',
     interpolation: {
       escapeValue: false,
