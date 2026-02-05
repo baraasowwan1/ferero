@@ -73,8 +73,8 @@ export const AboutUs = () => {
           </div>
 
           <div className="grid grid-cols-2 gap-4">
-            <ImageWithFallback src="https://scontent.famm10-1.fna.fbcdn.net/v/t39.30808-6/591939534_122192677280552292_2783571141389881115_n.jpg" />
-            <ImageWithFallback src="https://scontent.famm13-1.fna.fbcdn.net/v/t39.30808-6/497458483_1108961704601553_3015175324517725045_n.jpg" />
+            <ImageWithFallback src="https://scontent.famm10-1.fna.fbcdn.net/v/t39.30808-6/611827048_1306368678194187_6872564038331745294_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=cf3psfaI5EMQ7kNvwEDSikc&_nc_oc=AdnAU3A1UnWK3FryYH1HJS__xe1fuxXnxWyXAmGxVBznb1hM-igbBrbJWKceA4-DUzAF8bRW-ntb8DimspOY-rlO&_nc_zt=23&_nc_ht=scontent.famm10-1.fna&_nc_gid=Mz7mwzeP5rsvs7w9pLUZkw&oh=00_AfvJSa_H4ZzwA4dl9BQm47hZN8Un48Wwg_Y4oYJMu9_M5g&oe=698AB4EE" />
+            <ImageWithFallback src="https://scontent.famm10-1.fna.fbcdn.net/v/t39.30808-6/591939534_122192677280552292_2783571141389881115_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_ohc=MrsxOUharLkQ7kNvwH6fkd5&_nc_oc=AdlSlqyW5jvxB5JPBwVtd-1r1ER4sqlit1IESTM9mpr1yOjAlkrJDr8fVDzr_b8iw201z_CcaXR27kgDouROAwBB&_nc_zt=23&_nc_ht=scontent.famm10-1.fna&_nc_gid=JytMZMD9VCONqmalJhkgJg&oh=00_AfuPGiy_zdfE2bngRrGFTxu3M3E8PtTS4bPUJJg7BBzgSQ&oe=698ACAFE" />
           </div>
         </div>
       </section>
