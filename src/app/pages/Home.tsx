@@ -50,7 +50,7 @@ export const Home = () => {
           <div className="absolute inset-0 bg-accent/40" />
         </div>
 
-        <div className="relative z-10 max-w-7xl mx-auto px-4 text-white">
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-white">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
@@ -60,12 +60,12 @@ export const Home = () => {
             <h1 className="text-5xl md:text-7xl font-serif font-bold mb-6">
               {t('home.heroTitle')}
             </h1>
-            <p className="text-xl md:text-2xl text-pink-50 mb-10">
+            <p className="text-xl md:text-2xl text-pink-50 mb-10 leading-relaxed">
               {t('home.heroSub')}
             </p>
             <Link
               to="/store"
-              className="inline-flex items-center gap-2 bg-secondary hover:bg-accent px-8 py-4 rounded-full text-lg font-medium transition"
+              className="inline-flex items-center gap-2 bg-secondary hover:bg-accent text-white px-8 py-4 rounded-full text-lg font-medium transition-all transform hover:scale-105"
             >
               {t('home.viewStore')}
               <ArrowRight className="w-5 h-5 rtl:rotate-180" />
@@ -76,7 +76,7 @@ export const Home = () => {
 
       {/* Brands Section */}
       <section className="py-24 bg-pink-light/30">
-        <div className="max-w-7xl mx-auto px-4">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-serif font-bold text-accent mb-4">
               {t('home.brands')}
@@ -93,13 +93,15 @@ export const Home = () => {
                 viewport={{ once: true }}
                 className="group relative overflow-hidden rounded-2xl aspect-[16/10] shadow-xl bg-white border border-pink-100"
               >
-                <ImageWithFallback
-                  src={brand.image}
-                  alt={brand.name}
-                  className="w-full h-full object-contain p-8"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-accent/90 to-transparent flex flex-col justify-end p-8">
-                  <h3 className="text-3xl font-serif font-bold text-white">
+                <div className="w-full h-full overflow-hidden">
+                  <ImageWithFallback
+                    src={brand.image}
+                    alt={brand.name}
+                    className="w-full h-full object-contain p-8 transition-transform duration-700 group-hover:scale-110"
+                  />
+                </div>
+                <div className="absolute inset-0 bg-gradient-to-t from-accent/90 via-accent/20 to-transparent flex flex-col justify-end p-8">
+                  <h3 className="text-3xl font-serif font-bold text-white mb-2">
                     {brand.name}
                   </h3>
                   <p className="text-secondary/80">
@@ -110,7 +112,7 @@ export const Home = () => {
             ))}
           </div>
 
-          {/* Quality Icons */}
+          {/* Quality Icons (كانت أسفل نافذة الحلويات سابقًا) */}
           <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
             <div className="flex flex-col items-center gap-2">
               <Star className="w-6 h-6 text-secondary" />
@@ -136,14 +138,17 @@ export const Home = () => {
 
       {/* Crafted Perfection Section */}
       <section className="py-24 bg-accent text-white">
-        <div className="max-w-7xl mx-auto px-4">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
             <div>
               <h2 className="text-4xl font-serif font-bold mb-8">
                 {t('home.craftedTitle', 'Crafted Perfection')}
               </h2>
-              <p className="text-stone-300 text-lg mb-8">
-                {t('home.craftedDesc')}
+              <p className="text-stone-400 text-lg mb-8 leading-relaxed">
+                {t(
+                  'home.craftedDesc',
+                  'Every product in our store is a result of meticulous craftsmanship. From the rich layers of our cakes to the traditional heritage of our Kullaj, we ensure every bite is a celebration.'
+                )}
               </p>
 
               <div className="space-y-4">
@@ -151,7 +156,7 @@ export const Home = () => {
                   <Link
                     key={cat.name}
                     to="/store"
-                    className="flex items-center justify-between p-4 border border-stone-700 rounded-lg hover:bg-secondary transition"
+                    className="flex items-center justify-between p-4 border border-stone-700 rounded-lg hover:bg-secondary transition-colors"
                   >
                     <div className="flex items-center gap-4">
                       <div className="w-12 h-12 rounded-full overflow-hidden">
@@ -161,13 +166,44 @@ export const Home = () => {
                           className="w-full h-full object-cover"
                         />
                       </div>
-                      <span>{cat.name}</span>
+                      <span className="font-medium">{cat.name}</span>
                     </div>
                     <ArrowRight className="w-5 h-5 rtl:rotate-180" />
                   </Link>
                 ))}
               </div>
             </div>
+
+            {/* الصور – بدون أي تغيير */}
+            <div className="grid grid-cols-2 gap-4">
+              <div className="space-y-4">
+                <div className="rounded-2xl overflow-hidden h-64">
+                  <ImageWithFallback
+                    src="https://scontent.famm10-1.fna.fbcdn.net/v/t39.30808-6/555998607_122182675634552292_5156581614799105808_n.jpg"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <div className="rounded-2xl overflow-hidden h-48">
+                  <ImageWithFallback
+                    src="https://scontent.famm10-1.fna.fbcdn.net/v/t39.30808-6/607636527_1299798438851211_4761616371627611317_n.jpg"
+                  />
+                </div>
+              </div>
+
+              <div className="space-y-4 pt-8">
+                <div className="rounded-2xl overflow-hidden h-48">
+                  <ImageWithFallback
+                    src="https://scontent.famm7-1.fna.fbcdn.net/v/t39.30808-6/556084524_122182416620552292_507253606308491181_n.jpg"
+                  />
+                </div>
+                <div className="rounded-2xl overflow-hidden h-64">
+                  <ImageWithFallback
+                    src="https://scontent.famm10-1.fna.fbcdn.net/v/t39.30808-6/607030131_1299798782184510_6327599882514401662_n.jpg"
+                  />
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </section>
