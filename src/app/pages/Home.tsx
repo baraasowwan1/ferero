@@ -97,11 +97,8 @@ export const Home = () => {
             ))}
           </div>
         </div>
-      </section>
 
       
-                </div>
-              ))}
             </div>
             <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
               <div className="flex flex-col items-center gap-2">
