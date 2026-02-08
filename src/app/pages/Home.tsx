@@ -45,7 +45,7 @@ export const Home = () => {
       <section className="relative h-[80vh] flex items-center overflow-hidden">
         <div className="absolute inset-0">
           <ImageWithFallback
-            src="https://images.unsplash.com/photo-1769643207188-f9b6b7e1d72c?q=80&w=1920"
+            src="https://lh3.googleusercontent.com/p/AF1QipNC5zVlCNVkZS5zPUsZ2XYNHqxoCSCrZ8UVOt6T=s1360-w1360-h1020-rw"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-accent/40" />
