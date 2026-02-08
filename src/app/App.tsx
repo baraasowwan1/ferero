@@ -10,8 +10,8 @@ import { AboutUs } from './pages/AboutUs';
 import { ContactUs } from './pages/ContactUs';
 
 // صفحات العلامات التجارية
-import { Ferrero } from './subbrand/Ferrero';
-import { Kullaj } from './subbrand/Kullaj';
+import { Ferrero } from './brand/Ferrero';
+import { Kullaj } from './brand/Kullaj';
 
 import { Toaster } from './components/ui/sonner';
 
