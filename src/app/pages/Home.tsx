@@ -13,13 +13,13 @@ export const Home = () => {
       name: 'Ferrero Cake',
       description: t('home.ferreroDesc', 'Elegant chocolate creations'),
       image:
-        'https://scontent.famm10-1.fna.fbcdn.net/v/t39.30808-6/488253898_9886438498056854_141848626228315824_n.jpg',
+        'https://scontent.famm10-1.fna.fbcdn.net/v/t39.30808-6/488253898_9886438498056854_141848626228315824_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=JYpSB-fxDokQ7kNvwEol8eR&_nc_oc=Adnro-l0KgwjiO9puIhFLJ8b9YgVFsnGqT-dHBogSgJoez4VVHPUSSf2W5TP7h3IYFKp_NjFMKFeLtf_YrfwuAY-&_nc_zt=23&_nc_ht=scontent.famm10-1.fna&_nc_gid=LLhEoU_m-gVS9CUggZQxTg&oh=00_AfsCwV-ZJ23Bq6tCyM1uE2q6XikTyWD37mFiAnFSqdODCQ&oe=698EC58C',
     },
     {
       name: 'Cheese and Walnut Kullaj 1951',
       description: t('home.kullajDesc', 'Traditional artisanal kullaj'),
       image:
-        'https://scontent.famm7-1.fna.fbcdn.net/v/t39.30808-6/463869455_122114133488552292_3676113582017752048_n.jpg',
+        'https://scontent.famm10-1.fna.fbcdn.net/v/t39.30808-6/490705348_122154620498552292_7629996614415224572_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=ol-zUTH38QgQ7kNvwGaPt3N&_nc_oc=AdlW7WuHdSamPUEB-54WNWIAwqEysHuiygTL5B9Rei5u4KdJUNabcPlUQLUhnJdUBcF8FnmGS8XaUjIhop4wocu8&_nc_zt=23&_nc_ht=scontent.famm10-1.fna&_nc_gid=d9M8ooW3kK1U7nfGoEGZaw&oh=00_Aful6MAYyduBTHD984h3jTfAb6Z9u3TolVocKFT4DNvx7w&oe=698EDA52',
     },
   ];
 
@@ -27,11 +27,11 @@ export const Home = () => {
     () => [
       {
         name: t('store.categories.cakes'),
-        img: 'https://images.unsplash.com/photo-1764380746818-18c01e96df12?q=80&w=400',
+        img: 'https://scontent.famm10-1.fna.fbcdn.net/v/t39.30808-6/352382050_622778522920898_4607408828112141834_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=rS4rdP-sQJwQ7kNvwEGDgQM&_nc_oc=AdnihdCiiLNIqJHgLk7W9WMee4dbjpJUNHTcDsrZnG-nDbzMyjcq9w0mMlhOXN8hMPxDy1Fc_gPtPEQXZ0UQbTvh&_nc_zt=23&_nc_ht=scontent.famm10-1.fna&_nc_gid=mkZQrY2PqesFaDm3rdJYMQ&oh=00_AftIdU5J1ygue_0ZLG8n9LnLfFwmPngi4lTtkOjJTJ2crg&oe=698EB975',
       },
       {
         name: t('store.categories.molded'),
-        img: 'https://images.unsplash.com/photo-1759593914762-11026921ef2d?q=80&w=400',
+        img: 'https://scontent.famm7-1.fna.fbcdn.net/v/t39.30808-6/463869455_122114133488552292_3676113582017752048_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=ZCi-mWswkw4Q7kNvwE-slDf&_nc_oc=AdmU18T1G5DlV93FRLm6-_hOuT8Um-IbJWwE8D1_iFHj3Y4-j6WcXxidnuD6Xwck4qAJnGHBrwTwJhFE5RY35s7v&_nc_zt=23&_nc_ht=scontent.famm7-1.fna&_nc_gid=UjuNbhvSnkh3w2nep3S0uA&oh=00_AfvLVmTaO2B5wZEme-eS-zBvUUtZ4UiW36vbuQlXebkX0Q&oe=698EBC8F',
       },
     ],
     [t]
@@ -179,13 +179,13 @@ export const Home = () => {
               <div className="space-y-4">
                 <div className="rounded-2xl overflow-hidden h-64">
                   <ImageWithFallback
-                    src="https://scontent.famm10-1.fna.fbcdn.net/v/t39.30808-6/555998607_122182675634552292_5156581614799105808_n.jpg"
+                    src="https://scontent.famm10-1.fna.fbcdn.net/v/t39.30808-6/611827048_1306368678194187_6872564038331745294_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=edqWZY5_bdUQ7kNvwEzLE7r&_nc_oc=AdlRjTFAr2T0_fujSA0MVnyEZnG5ur0eG6Y_Y5hIcKZ3J_NEu6LSq4TX9KzybuAoKly3kRtNt7sgQWoQZ-xYeD0g&_nc_zt=23&_nc_ht=scontent.famm10-1.fna&_nc_gid=yjXXmM3g5AhOQ1NsGlKKQw&oh=00_AfuNYCAwfI-5gMLcVdPtbY2RvIxemBUv59HmPd0tU61xjg&oe=698EA96E"
                     className="w-full h-full object-cover"
                   />
                 </div>
                 <div className="rounded-2xl overflow-hidden h-48">
                   <ImageWithFallback
-                    src="https://scontent.famm10-1.fna.fbcdn.net/v/t39.30808-6/607636527_1299798438851211_4761616371627611317_n.jpg"
+                    src="https://scontent.famm6-1.fna.fbcdn.net/v/t39.30808-6/616013146_1316543953843326_5408818414923851489_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_ohc=xjkNHdJjCXMQ7kNvwFkD_6R&_nc_oc=AdlLcmtRkq3fqo3H38kIFkpsgNjEgvbFaeda7KaGDMn_AryFfxOsj8RCaLmxKJx0Gp5MwsIY-u7lH6FXNgHhvfdM&_nc_zt=23&_nc_ht=scontent.famm6-1.fna&_nc_gid=3Q_CC0mUV2ukCQpYhS7jvw&oh=00_AfuZpE-d-9tIOB-zJEZrCCEQXXt2rx5Xwlz1-9AAzF3cdg&oe=698ECD28"
                   />
                 </div>
               </div>
@@ -193,12 +193,12 @@ export const Home = () => {
               <div className="space-y-4 pt-8">
                 <div className="rounded-2xl overflow-hidden h-48">
                   <ImageWithFallback
-                    src="https://scontent.famm7-1.fna.fbcdn.net/v/t39.30808-6/556084524_122182416620552292_507253606308491181_n.jpg"
+                    src="https://scontent.famm6-1.fna.fbcdn.net/v/t39.30808-6/561917571_122185384598552292_7265611449628162282_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_ohc=2KnuVavStDcQ7kNvwE_EdIf&_nc_oc=AdntEiCN1gPsjWer_bqVeu-YLSJ419V2amMQxNxkumlW-BjnHDoAvE0jZ_fc_LJkQPLnvkYdUIF0OV9zlID8Toor&_nc_zt=23&_nc_ht=scontent.famm6-1.fna&_nc_gid=01Y5HyUa9k7gHdhnDZd2mg&oh=00_Aftsp2dGXf_eEWxE5l-fTA8LVdgRmlUgiFP3KVrj0yCthg&oe=698EBBFB"
                   />
                 </div>
                 <div className="rounded-2xl overflow-hidden h-64">
                   <ImageWithFallback
-                    src="https://scontent.famm10-1.fna.fbcdn.net/v/t39.30808-6/607030131_1299798782184510_6327599882514401662_n.jpg"
+                    src="https://scontent.famm11-1.fna.fbcdn.net/v/t39.30808-6/626432085_122201078354552292_7736825017065677994_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=833d8c&_nc_ohc=3108ot4-n_8Q7kNvwGHo-Oa&_nc_oc=AdmjQDfyrGI-ZcvU6ip1LDQEV3QBK3MECQE6nVyUnaapDejeZO8suOpWbb1DazvGPVALjFTM-YWlYc9Pv_VONFEl&_nc_zt=23&_nc_ht=scontent.famm11-1.fna&_nc_gid=xhdrtkTKc97hrw47uUD3EQ&oh=00_AfsK-OixHrApb0FPR5JuR0nu6ddfUc2wqnQGgk38Tfj_tQ&oe=698EBFA3"
                   />
                 </div>
               </div>
