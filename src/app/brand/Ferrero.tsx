@@ -15,7 +15,7 @@ export const Ferrero = () => {
         {/* صورة الغلاف */}
         <div className="w-full h-96 mb-6 overflow-hidden rounded-2xl">
           <ImageWithFallback
-            src="https://scontent.famm10-1.fna.fbcdn.net/v/t39.30808-6/488253898_9886438498056854_141848626228315824_n.jpg"
+            src="https://scontent.famm6-1.fna.fbcdn.net/v/t39.30808-6/491838113_10007968619237174_4027847743412620338_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=QdBLFLjRqIIQ7kNvwETTKES&_nc_oc=AdnTptLnZ7RVJ7B1tA0oIDo-YN6yeF-BTjpvbtjFzozANnsljQRDde1ygAQYclkTQoXDI4S6YYjoqAmCMMCq_2_Y&_nc_zt=23&_nc_ht=scontent.famm6-1.fna&_nc_gid=UQhEfrxU8t1thwDzDgWlZg&oh=00_AfunPlhKazVidiHMABFdhmSC7e73-hZDNEGSJPymcoFF8w&oe=698EC063"
             alt="Ferrero Cake"
             className="w-full h-full object-cover"
           />
