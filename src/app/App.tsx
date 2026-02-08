@@ -8,6 +8,11 @@ import { Home } from './pages/Home';
 import { Store } from './pages/Store';
 import { AboutUs } from './pages/AboutUs';
 import { ContactUs } from './pages/ContactUs';
+
+// صفحات العلامات التجارية
+import { Ferrero } from './subbrand/Ferrero';
+import { Kullaj } from './subbrand/Kullaj';
+
 import { Toaster } from './components/ui/sonner';
 
 function App() {
@@ -22,6 +27,10 @@ function App() {
               <Route path="/store" element={<Store />} />
               <Route path="/about" element={<AboutUs />} />
               <Route path="/contact" element={<ContactUs />} />
+
+              {/* مسارات العلامات التجارية */}
+              <Route path="/ferrero" element={<Ferrero />} />
+              <Route path="/kullaj" element={<Kullaj />} />
             </Routes>
           </main>
           <Footer />
