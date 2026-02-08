@@ -119,16 +119,63 @@ export const ContactUs = () => {
             </div>
           </div>
 
-          {/* Social */}
-          <div className="flex gap-4">
-            <a className="flex items-center gap-2 px-6 py-3 bg-accent text-white rounded-full">
-              <Facebook className="w-5 h-5" />
-              <span>Facebook</span>
-            </a>
-            <a className="flex items-center gap-2 px-6 py-3 bg-accent text-white rounded-full">
-              <Instagram className="w-5 h-5" />
-              <span>Instagram</span>
-            </a>
+          {/* Social Brands */}
+          <div className="space-y-10">
+            {/* Ferereo Cake */}
+            <div>
+              <h3 className="text-lg font-serif font-bold text-accent mb-4">
+                Ferereo Cake
+              </h3>
+              <div className="flex gap-4">
+                <a
+                  href="https://www.facebook.com/ferereocake"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2 px-6 py-3 bg-accent text-white rounded-full hover:bg-secondary transition"
+                >
+                  <Facebook className="w-5 h-5" />
+                  <span>Facebook</span>
+                </a>
+
+                <a
+                  href="https://www.instagram.com/ferereo_cake_"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2 px-6 py-3 bg-accent text-white rounded-full hover:bg-secondary transition"
+                >
+                  <Instagram className="w-5 h-5" />
+                  <span>Instagram</span>
+                </a>
+              </div>
+            </div>
+
+            {/* Kullaj 1951 */}
+            <div>
+              <h3 className="text-lg font-serif font-bold text-accent mb-4">
+                Cheese & Walnut Kullaj 1951
+              </h3>
+              <div className="flex gap-4">
+                <a
+                  href="https://www.facebook.com/profile.php?id=61566568784595"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2 px-6 py-3 bg-accent text-white rounded-full hover:bg-secondary transition"
+                >
+                  <Facebook className="w-5 h-5" />
+                  <span>Facebook</span>
+                </a>
+
+                <a
+                  href="https://www.instagram.com/kullaj1951"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2 px-6 py-3 bg-accent text-white rounded-full hover:bg-secondary transition"
+                >
+                  <Instagram className="w-5 h-5" />
+                  <span>Instagram</span>
+                </a>
+              </div>
+            </div>
           </div>
 
         </div>
