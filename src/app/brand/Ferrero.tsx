@@ -45,21 +45,21 @@ export const Ferrero = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {/* مثال على 3 بوستات من الانستجرام */}
           <iframe
-            src="https://www.instagram.com/p/CyEXAMPLE1/embed"
+            src="https://www.instagram.com/p/DTsxJCXl3YJ/embed"
             className="w-full h-96 rounded-2xl"
             allowFullScreen
             loading="lazy"
             title="Instagram post 1"
           ></iframe>
           <iframe
-            src="https://www.instagram.com/p/CyEXAMPLE2/embed"
+            src="https://www.instagram.com/p/DSpjQaQjgBz/embed"
             className="w-full h-96 rounded-2xl"
             allowFullScreen
             loading="lazy"
             title="Instagram post 2"
           ></iframe>
           <iframe
-            src="https://www.instagram.com/p/CyEXAMPLE3/embed"
+            src="https://www.instagram.com/p/DS2vRSoDjxg/embed"
             className="w-full h-96 rounded-2xl"
             allowFullScreen
             loading="lazy"
