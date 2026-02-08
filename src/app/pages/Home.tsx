@@ -45,7 +45,7 @@ export const Home = () => {
       <section className="relative h-[80vh] flex items-center overflow-hidden">
         <div className="absolute inset-0">
           <ImageWithFallback
-            src="https://scontent.famm10-1.fna.fbcdn.net/v/t39.30808-6/352382050_622778522920898_4607408828112141834_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=rS4rdP-sQJwQ7kNvwEGDgQM&_nc_oc=AdnihdCiiLNIqJHgLk7W9WMee4dbjpJUNHTcDsrZnG-nDbzMyjcq9w0mMlhOXN8hMPxDy1Fc_gPtPEQXZ0UQbTvh&_nc_zt=23&_nc_ht=scontent.famm10-1.fna&_nc_gid=I06-F-2tdJL83XtwtO-OnQ&oh=00_AfuiVgM1rMoEo3l-GJLjIHEuwlsPWtssdxmq7aMANHjouw&oe=698EB975"
+            src="https://lh3.googleusercontent.com/p/AF1QipNC5zVlCNVkZS5zPUsZ2XYNHqxoCSCrZ8UVOt6T=s1360-w1360-h1020-rw"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-accent/40" />
