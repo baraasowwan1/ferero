@@ -1,6 +1,6 @@
 import React from 'react';
 import { Facebook, Instagram } from 'lucide-react';
-import { ImageWithFallback } from '../figma/ImageWithFallback';
+import { ImageWithFallback } from '../components/figma/ImageWithFallback';
 
 export const Kullaj = () => {
   return (
