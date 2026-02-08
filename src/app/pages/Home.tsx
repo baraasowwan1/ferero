@@ -99,24 +99,7 @@ export const Home = () => {
         </div>
       </section>
 
-      {/* Decorative Sweets Window */}
-      <section className="py-24 overflow-hidden bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-serif font-bold text-accent mb-4">
-              {t('home.decorativeWindow')}
-            </h2>
-          </div>
-
-          <div className="relative group cursor-pointer border-[12px] border-accent rounded-3xl p-4 bg-pink-50 shadow-2xl">
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-              {[1,2,3,4].map((i) => (
-                <div key={i} className="aspect-square overflow-hidden rounded-lg">
-                  <ImageWithFallback 
-                    src={`https://images.unsplash.com/photo-1551024601-bec78aea704b?q=80&w=400&sig=${i}`}
-                    alt="Sweet"
-                    className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
-                  />
+      
                 </div>
               ))}
             </div>
