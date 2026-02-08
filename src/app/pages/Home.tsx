@@ -12,7 +12,7 @@ export const Home = () => {
     {
       name: 'Ferrero Cake',
       description: t('home.ferreroDesc', 'Elegant chocolate creations'),
-      image: 'https://scontent.famm6-1.fna.fbcdn.net/v/t39.30808-6/471173763_1015997517231306_628267136974182119_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=UitFx4iNlkAQ7kNvwH9zOKe&_nc_oc=AdmqAayMIwoM4sLc0NhkRzM0Fl-sUqrEzzeIekuwZJzdLHuiIKLKrEnqUpD7s0cJLnejtsSkz5pUyOCYyga5SLT8&_nc_zt=23&_nc_ht=scontent.famm6-1.fna&_nc_gid=ezs5sZI2vL6nE6Q1oeQf6g&oh=00_Afv3kwTidFR-YLjtOl0jQsZIKt48il3-nKDUSZlFNg3g_A&oe=698A9D7E',
+      image: 'https://scontent.famm10-1.fna.fbcdn.net/v/t39.30808-6/488253898_9886438498056854_141848626228315824_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=JYpSB-fxDokQ7kNvwEol8eR&_nc_oc=Adnro-l0KgwjiO9puIhFLJ8b9YgVFsnGqT-dHBogSgJoez4VVHPUSSf2W5TP7h3IYFKp_NjFMKFeLtf_YrfwuAY-&_nc_zt=23&_nc_ht=scontent.famm10-1.fna&_nc_gid=LLhEoU_m-gVS9CUggZQxTg&oh=00_AfsCwV-ZJ23Bq6tCyM1uE2q6XikTyWD37mFiAnFSqdODCQ&oe=698EC58C',
     },
     {
       name: 'Cheese and Walnut Kullaj 1951',
